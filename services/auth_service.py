@@ -6,6 +6,7 @@ from typing import Dict, Optional, Any
 import jwt
 from config import settings
 
+
 class AuthService:
     def __init__(self):
         self.sessions: Dict[str, Dict[str, Any]] = {}
@@ -28,17 +29,28 @@ class AuthService:
             "user_type": "anonymous",
         }
 
-        demo_password = self._hash_password("demo123")
-        self.users["demo@fintech.com"] = {
-            "user_id": str(uuid.uuid4()),
-            "username": "demo_user",
-            "email": "demo@fintech.com",
-            "password_hash": demo_password,
-            "is_authenticated": True,
-            "created_at": datetime.utcnow(),
-            "user_type": "authenticated",
-            "account_status": "active",
-        }
+        # Demo users for testing
+        demo_users = [
+            {
+                "email": "demo@fintech.com",
+                "password": "demo123",
+                "username": "demo_user",
+                "account_status": "active",
+            },
+        ]
+
+        for user_data in demo_users:
+            password_hash = self._hash_password(user_data["password"])
+            self.users[user_data["email"]] = {
+                "user_id": str(uuid.uuid4()),
+                "username": user_data["username"],
+                "email": user_data["email"],
+                "password_hash": password_hash,
+                "is_authenticated": True,
+                "created_at": datetime.utcnow(),
+                "user_type": "authenticated",
+                "account_status": user_data["account_status"],
+            }
 
     def _hash_password(self, password: str) -> str:
         return hashlib.sha256(password.encode()).hexdigest()

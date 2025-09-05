@@ -5,6 +5,7 @@ from services.pinecone_service import PineconeService
 from services.simple_faq_search import SimpleFAQSearch
 import uuid
 
+
 class ChatService:
     def __init__(self):
         self.client = None
@@ -74,7 +75,10 @@ class ChatService:
                     metadata = doc.get("metadata", {})
 
                     if metadata.get("faq_type") == "fintech":
-                        context_part = f
+                        context_part = (
+                            f"Q: {metadata.get('question', doc['title'])}\n\n"
+                            f"A: {metadata.get('answer', doc.get('content', ''))}"
+                        )
                         source_title = f"FAQ: {metadata.get('question', doc['title'])}"
                         category = metadata.get("category", "General")
                     else:
@@ -96,7 +100,7 @@ class ChatService:
             }
 
         except Exception as e:
-            
+
             return {"context": "", "sources": [], "categories": []}
 
     def generate_response(
@@ -149,7 +153,7 @@ class ChatService:
             }
 
         except Exception as e:
-            
+
             raise e
 
     def clear_conversation(self, conversation_id: str) -> bool:
@@ -159,7 +163,7 @@ class ChatService:
                 return True
             return False
         except Exception as e:
-            
+
             return False
 
     def _use_simple_faq_search(self, query: str, top_k: int = 5) -> dict:
@@ -180,7 +184,10 @@ class ChatService:
                 if doc["score"] > 0.1:
                     metadata = doc.get("metadata", {})
 
-                    context_part = f
+                    context_part = (
+                        f"Q: {metadata.get('question', doc['title'])}\n\n"
+                        f"A: {metadata.get('answer', doc.get('content', ''))}"
+                    )
                     source_title = f"FAQ: {metadata.get('question', doc['title'])}"
                     category = metadata.get("category", "General")
 
@@ -196,11 +203,16 @@ class ChatService:
             }
 
         except Exception as e:
-            
+
             return {"context": "", "sources": [], "categories": []}
 
     def _create_fintech_system_message(self, context: str, categories: list) -> dict:
-        base_prompt = 
+        base_prompt = (
+            "You are EloquentAI, a fintech support assistant. Provide clear,"
+            " accurate answers about accounts, payments, security, compliance,"
+            " and troubleshooting. If you are not certain, state assumptions and"
+            " suggest contacting support for account-specific issues."
+        )
 
         if context:
             context_note = (

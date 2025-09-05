@@ -1,9 +1,10 @@
-Simple FAQ search service that works without embeddings.
-This provides keyword-based search functionality.
+# Simple FAQ search service that works without embeddings.
+# Provides keyword-based search functionality.
 
 import json
 from pathlib import Path
 from typing import List, Dict, Any
+
 
 class SimpleFAQSearch:
     def __init__(self):
@@ -16,14 +17,10 @@ class SimpleFAQSearch:
             if db_file.exists():
                 with open(db_file, "r", encoding="utf-8") as f:
                     self.db = json.load(f)
-                print(f"✅ FAQ search database loaded: {len(self.db['faqs'])} FAQs")
             else:
-                print(
-                    "❌ FAQ search database not found. Run load_faqs_simple.py first."
-                )
                 self.db = {"faqs": [], "keyword_index": {}, "category_index": {}}
-        except Exception as e:
-            
+        except Exception:
+
             self.db = {"faqs": [], "keyword_index": {}, "category_index": {}}
 
     def search(
