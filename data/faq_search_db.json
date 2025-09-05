@@ -1,0 +1,2732 @@
+{
+  "faqs": [
+    {
+      "id": "faq_001",
+      "category": "Account & Registration",
+      "question": "How do I create a new account?",
+      "answer": "To create a new account, visit our website or download our mobile app. Click 'Sign Up' and provide your email, phone number, and create a secure password. You'll need to verify your email and phone number. Then complete identity verification by uploading a government-issued ID and taking a selfie. The process typically takes 5-10 minutes.",
+      "keywords": [
+        "account creation",
+        "sign up",
+        "registration",
+        "new user",
+        "getting started"
+      ]
+    },
+    {
+      "id": "faq_002",
+      "category": "Account & Registration",
+      "question": "What documents do I need for identity verification?",
+      "answer": "For identity verification, you need: 1) A government-issued photo ID (driver's license, passport, or state ID), 2) A clear selfie for facial recognition, 3) Proof of address (utility bill, bank statement, or lease agreement dated within 90 days). All documents must be current and clearly readable.",
+      "keywords": [
+        "identity verification",
+        "documents",
+        "KYC",
+        "ID verification",
+        "proof of address"
+      ]
+    },
+    {
+      "id": "faq_003",
+      "category": "Account & Registration",
+      "question": "Why is my account verification taking so long?",
+      "answer": "Account verification typically takes 24-48 hours. Delays may occur due to: unclear document photos, mismatched information, high verification volume, or additional compliance checks. If it's been over 48 hours, contact support with your application reference number.",
+      "keywords": [
+        "verification delay",
+        "account pending",
+        "verification time",
+        "KYC delay"
+      ]
+    },
+    {
+      "id": "faq_004",
+      "category": "Account & Registration",
+      "question": "How do I reset my password?",
+      "answer": "To reset your password: 1) Go to the login page and click 'Forgot Password', 2) Enter your registered email address, 3) Check your email for a password reset link, 4) Click the link and create a new password. The reset link expires in 1 hour for security.",
+      "keywords": [
+        "password reset",
+        "forgot password",
+        "login issues",
+        "account access"
+      ]
+    },
+    {
+      "id": "faq_005",
+      "category": "Account & Registration",
+      "question": "Can I change my registered email or phone number?",
+      "answer": "Yes, you can update your contact information in Settings > Profile. For email changes, you'll receive verification emails at both old and new addresses. For phone changes, SMS verification is required. These changes may trigger additional security checks.",
+      "keywords": [
+        "change email",
+        "change phone",
+        "update contact",
+        "profile settings"
+      ]
+    },
+    {
+      "id": "faq_006",
+      "category": "Payments & Transactions",
+      "question": "How do I add money to my account?",
+      "answer": "You can add money through: 1) Bank transfer (ACH) - free, takes 1-3 business days, 2) Debit card - instant, small fee applies, 3) Wire transfer - same day, higher fee, 4) Direct deposit - set up through your employer. All methods require account verification.",
+      "keywords": [
+        "add money",
+        "deposit",
+        "fund account",
+        "bank transfer",
+        "debit card"
+      ]
+    },
+    {
+      "id": "faq_007",
+      "category": "Payments & Transactions",
+      "question": "What are your transaction limits?",
+      "answer": "Daily limits: $5,000 for transfers, $2,500 for ATM withdrawals, $10,000 for debit card purchases. Monthly limits: $50,000 for transfers. These limits increase with account verification level and history. Premium accounts have higher limits.",
+      "keywords": [
+        "transaction limits",
+        "daily limits",
+        "monthly limits",
+        "transfer limits",
+        "withdrawal limits"
+      ]
+    },
+    {
+      "id": "faq_008",
+      "category": "Payments & Transactions",
+      "question": "How long do transfers take?",
+      "answer": "Transfer times vary: Internal transfers (same bank) - instant, ACH transfers - 1-3 business days, Wire transfers - same day, International transfers - 3-5 business days. Weekend and holiday transfers may be delayed until the next business day.",
+      "keywords": [
+        "transfer time",
+        "ACH transfer",
+        "wire transfer",
+        "international transfer",
+        "transfer speed"
+      ]
+    },
+    {
+      "id": "faq_009",
+      "category": "Payments & Transactions",
+      "question": "Why was my transaction declined?",
+      "answer": "Transactions may be declined due to: insufficient funds, daily/monthly limits exceeded, suspicious activity detection, incorrect payment details, merchant restrictions, or temporary system maintenance. Check your account balance and limits first.",
+      "keywords": [
+        "transaction declined",
+        "payment failed",
+        "insufficient funds",
+        "declined transaction"
+      ]
+    },
+    {
+      "id": "faq_010",
+      "category": "Payments & Transactions",
+      "question": "How do I dispute a transaction?",
+      "answer": "To dispute a transaction: 1) Contact us within 60 days of the transaction, 2) Provide transaction details and reason for dispute, 3) We'll investigate and provide provisional credit if applicable, 4) Resolution typically takes 5-10 business days. Keep all relevant documentation.",
+      "keywords": [
+        "dispute transaction",
+        "chargeback",
+        "unauthorized transaction",
+        "transaction dispute"
+      ]
+    },
+    {
+      "id": "faq_011",
+      "category": "Security & Fraud Prevention",
+      "question": "How do you protect my account from fraud?",
+      "answer": "We use multiple security layers: 256-bit SSL encryption, two-factor authentication (2FA), real-time fraud monitoring, device fingerprinting, biometric authentication, and AI-powered suspicious activity detection. We also send instant notifications for all transactions.",
+      "keywords": [
+        "fraud protection",
+        "account security",
+        "encryption",
+        "2FA",
+        "fraud monitoring"
+      ]
+    },
+    {
+      "id": "faq_012",
+      "category": "Security & Fraud Prevention",
+      "question": "What should I do if I suspect fraud on my account?",
+      "answer": "If you suspect fraud: 1) Immediately contact our 24/7 fraud hotline, 2) Change your password and enable 2FA, 3) Review recent transactions, 4) We'll freeze suspicious transactions and issue new cards if needed, 5) File a police report for identity theft if applicable.",
+      "keywords": [
+        "fraud alert",
+        "suspicious activity",
+        "account compromised",
+        "identity theft",
+        "fraud hotline"
+      ]
+    },
+    {
+      "id": "faq_013",
+      "category": "Security & Fraud Prevention",
+      "question": "How do I enable two-factor authentication?",
+      "answer": "To enable 2FA: 1) Go to Settings > Security, 2) Select 'Two-Factor Authentication', 3) Choose SMS or authenticator app, 4) Follow setup instructions, 5) Save backup codes securely. 2FA is required for high-value transactions and recommended for all users.",
+      "keywords": [
+        "two-factor authentication",
+        "2FA",
+        "security settings",
+        "authenticator app",
+        "backup codes"
+      ]
+    },
+    {
+      "id": "faq_014",
+      "category": "Security & Fraud Prevention",
+      "question": "Is my personal information secure?",
+      "answer": "Yes, we use bank-level security: data encryption at rest and in transit, SOC 2 Type II compliance, regular security audits, zero-knowledge architecture for sensitive data, and strict access controls. We never sell your personal information to third parties.",
+      "keywords": [
+        "data security",
+        "privacy",
+        "encryption",
+        "SOC 2",
+        "personal information"
+      ]
+    },
+    {
+      "id": "faq_015",
+      "category": "Security & Fraud Prevention",
+      "question": "What happens if I lose my phone or it's stolen?",
+      "answer": "If your phone is lost/stolen: 1) Immediately log into your account from another device and enable account lock, 2) Contact support to disable mobile app access, 3) Change your password, 4) Disable SMS 2FA and switch to backup method, 5) Monitor account for suspicious activity.",
+      "keywords": [
+        "lost phone",
+        "stolen device",
+        "mobile security",
+        "account lock",
+        "device management"
+      ]
+    },
+    {
+      "id": "faq_016",
+      "category": "Regulations & Compliance",
+      "question": "Are you FDIC insured?",
+      "answer": "Yes, deposits are FDIC insured up to $250,000 per depositor through our partner banks. This means your money is protected even if the bank fails. FDIC insurance covers checking, savings, and money market accounts but not investments.",
+      "keywords": [
+        "FDIC insurance",
+        "deposit protection",
+        "bank insurance",
+        "FDIC coverage"
+      ]
+    },
+    {
+      "id": "faq_017",
+      "category": "Regulations & Compliance",
+      "question": "Do you report to credit bureaus?",
+      "answer": "We report positive payment history for certain products (like secured credit cards) to help build your credit. We may also report negative activity like defaults or fraud. We don't perform hard credit checks for standard account opening.",
+      "keywords": [
+        "credit reporting",
+        "credit bureaus",
+        "credit score",
+        "credit history",
+        "credit check"
+      ]
+    },
+    {
+      "id": "faq_018",
+      "category": "Regulations & Compliance",
+      "question": "What regulations do you comply with?",
+      "answer": "We comply with: Bank Secrecy Act (BSA), Anti-Money Laundering (AML) regulations, Know Your Customer (KYC) requirements, GDPR for international users, CCPA for California residents, PCI DSS for payment processing, and state money transmitter licenses.",
+      "keywords": [
+        "regulations",
+        "compliance",
+        "BSA",
+        "AML",
+        "KYC",
+        "GDPR",
+        "CCPA",
+        "PCI DSS"
+      ]
+    },
+    {
+      "id": "faq_019",
+      "category": "Regulations & Compliance",
+      "question": "How do you handle international transactions?",
+      "answer": "International transactions are subject to: additional compliance checks, OFAC sanctions screening, enhanced due diligence, currency conversion fees, and longer processing times. Some countries may be restricted due to regulatory requirements.",
+      "keywords": [
+        "international transactions",
+        "OFAC",
+        "sanctions",
+        "currency conversion",
+        "cross-border"
+      ]
+    },
+    {
+      "id": "faq_020",
+      "category": "Regulations & Compliance",
+      "question": "What are your privacy practices?",
+      "answer": "We follow strict privacy practices: data minimization, purpose limitation, user consent for data collection, right to data portability, right to deletion, regular privacy impact assessments, and third-party data sharing only when legally required or with explicit consent.",
+      "keywords": [
+        "privacy policy",
+        "data protection",
+        "user consent",
+        "data rights",
+        "privacy practices"
+      ]
+    },
+    {
+      "id": "faq_021",
+      "category": "Technical Support & Troubleshooting",
+      "question": "The app is not working properly. What should I do?",
+      "answer": "For app issues: 1) Force close and restart the app, 2) Check for app updates in your app store, 3) Restart your device, 4) Check internet connection, 5) Clear app cache (Android) or reinstall (iOS), 6) Contact support if issues persist. Include device model and OS version.",
+      "keywords": [
+        "app not working",
+        "technical issues",
+        "app troubleshooting",
+        "mobile app problems"
+      ]
+    },
+    {
+      "id": "faq_022",
+      "category": "Technical Support & Troubleshooting",
+      "question": "I can't log into my account. What should I do?",
+      "answer": "For login issues: 1) Verify your email/username and password, 2) Check if Caps Lock is on, 3) Try password reset if needed, 4) Clear browser cache or try incognito mode, 5) Disable VPN if using one, 6) Check if your account is locked due to multiple failed attempts.",
+      "keywords": [
+        "login problems",
+        "can't log in",
+        "account locked",
+        "login error",
+        "access issues"
+      ]
+    },
+    {
+      "id": "faq_023",
+      "category": "Technical Support & Troubleshooting",
+      "question": "How do I contact customer support?",
+      "answer": "Contact support through: 1) In-app chat (24/7), 2) Phone: 1-800-FINTECH (business hours), 3) Email: support@company.com, 4) Help center with FAQs, 5) Video call support for complex issues. Emergency fraud line available 24/7.",
+      "keywords": [
+        "customer support",
+        "contact support",
+        "help desk",
+        "phone support",
+        "chat support"
+      ]
+    },
+    {
+      "id": "faq_024",
+      "category": "Technical Support & Troubleshooting",
+      "question": "Why is my transaction pending?",
+      "answer": "Transactions may be pending due to: bank processing times, compliance reviews, insufficient funds verification, weekend/holiday delays, international transfer processing, or system maintenance. Most pending transactions resolve within 1-3 business days.",
+      "keywords": [
+        "pending transaction",
+        "transaction status",
+        "processing delay",
+        "transaction pending"
+      ]
+    },
+    {
+      "id": "faq_025",
+      "category": "Technical Support & Troubleshooting",
+      "question": "How do I update my app to the latest version?",
+      "answer": "To update the app: iOS - Go to App Store > Updates > Find our app > Tap Update. Android - Go to Google Play Store > My apps & games > Find our app > Tap Update. Enable automatic updates for seamless experience. Always use official app stores.",
+      "keywords": [
+        "app update",
+        "latest version",
+        "update app",
+        "app store",
+        "google play"
+      ]
+    }
+  ],
+  "keyword_index": {
+    "account creation": [
+      "faq_001"
+    ],
+    "sign up": [
+      "faq_001"
+    ],
+    "registration": [
+      "faq_001"
+    ],
+    "new user": [
+      "faq_001"
+    ],
+    "getting started": [
+      "faq_001"
+    ],
+    "how": [
+      "faq_001",
+      "faq_004",
+      "faq_006",
+      "faq_008",
+      "faq_010",
+      "faq_011",
+      "faq_013",
+      "faq_019",
+      "faq_023",
+      "faq_025"
+    ],
+    "create": [
+      "faq_001",
+      "faq_001",
+      "faq_001",
+      "faq_004"
+    ],
+    "new": [
+      "faq_001",
+      "faq_001",
+      "faq_004",
+      "faq_005",
+      "faq_012"
+    ],
+    "account?": [
+      "faq_001",
+      "faq_006",
+      "faq_012"
+    ],
+    "account,": [
+      "faq_001"
+    ],
+    "visit": [
+      "faq_001"
+    ],
+    "our": [
+      "faq_001",
+      "faq_001",
+      "faq_012",
+      "faq_016",
+      "faq_025",
+      "faq_025"
+    ],
+    "website": [
+      "faq_001"
+    ],
+    "download": [
+      "faq_001"
+    ],
+    "mobile": [
+      "faq_001",
+      "faq_015"
+    ],
+    "app.": [
+      "faq_001"
+    ],
+    "click": [
+      "faq_001",
+      "faq_004",
+      "faq_004"
+    ],
+    "'sign": [
+      "faq_001"
+    ],
+    "up'": [
+      "faq_001"
+    ],
+    "and": [
+      "faq_001",
+      "faq_001",
+      "faq_001",
+      "faq_001",
+      "faq_002",
+      "faq_004",
+      "faq_004",
+      "faq_005",
+      "faq_007",
+      "faq_008",
+      "faq_009",
+      "faq_010",
+      "faq_010",
+      "faq_011",
+      "faq_012",
+      "faq_012",
+      "faq_013",
+      "faq_014",
+      "faq_014",
+      "faq_015",
+      "faq_015",
+      "faq_016",
+      "faq_018",
+      "faq_019",
+      "faq_020",
+      "faq_021",
+      "faq_021",
+      "faq_022"
+    ],
+    "provide": [
+      "faq_001",
+      "faq_010",
+      "faq_010"
+    ],
+    "your": [
+      "faq_001",
+      "faq_001",
+      "faq_003",
+      "faq_004",
+      "faq_004",
+      "faq_004",
+      "faq_005",
+      "faq_006",
+      "faq_007",
+      "faq_009",
+      "faq_012",
+      "faq_014",
+      "faq_015",
+      "faq_015",
+      "faq_015",
+      "faq_016",
+      "faq_017",
+      "faq_018",
+      "faq_020",
+      "faq_021",
+      "faq_021",
+      "faq_022",
+      "faq_022"
+    ],
+    "email,": [
+      "faq_001"
+    ],
+    "phone": [
+      "faq_001",
+      "faq_001",
+      "faq_005",
+      "faq_005",
+      "faq_015",
+      "faq_015"
+    ],
+    "number,": [
+      "faq_001"
+    ],
+    "secure": [
+      "faq_001"
+    ],
+    "password.": [
+      "faq_001",
+      "faq_004"
+    ],
+    "you'll": [
+      "faq_001",
+      "faq_005"
+    ],
+    "need": [
+      "faq_001",
+      "faq_002"
+    ],
+    "verify": [
+      "faq_001",
+      "faq_022"
+    ],
+    "email": [
+      "faq_001",
+      "faq_004",
+      "faq_004",
+      "faq_005",
+      "faq_005"
+    ],
+    "number.": [
+      "faq_001",
+      "faq_003"
+    ],
+    "then": [
+      "faq_001"
+    ],
+    "complete": [
+      "faq_001"
+    ],
+    "identity": [
+      "faq_001",
+      "faq_002",
+      "faq_002",
+      "faq_012"
+    ],
+    "verification": [
+      "faq_001",
+      "faq_003",
+      "faq_003",
+      "faq_003",
+      "faq_005",
+      "faq_005",
+      "faq_007"
+    ],
+    "uploading": [
+      "faq_001"
+    ],
+    "government-issued": [
+      "faq_001",
+      "faq_002"
+    ],
+    "taking": [
+      "faq_001",
+      "faq_003"
+    ],
+    "selfie.": [
+      "faq_001"
+    ],
+    "the": [
+      "faq_001",
+      "faq_004",
+      "faq_004",
+      "faq_004",
+      "faq_008",
+      "faq_010",
+      "faq_016",
+      "faq_021",
+      "faq_021",
+      "faq_025",
+      "faq_025"
+    ],
+    "process": [
+      "faq_001"
+    ],
+    "typically": [
+      "faq_001",
+      "faq_003",
+      "faq_010"
+    ],
+    "takes": [
+      "faq_001",
+      "faq_003",
+      "faq_006",
+      "faq_010"
+    ],
+    "5-10": [
+      "faq_001",
+      "faq_010"
+    ],
+    "minutes.": [
+      "faq_001"
+    ],
+    "identity verification": [
+      "faq_002"
+    ],
+    "documents": [
+      "faq_002",
+      "faq_002",
+      "faq_002"
+    ],
+    "kyc": [
+      "faq_002",
+      "faq_018"
+    ],
+    "id verification": [
+      "faq_002"
+    ],
+    "proof of address": [
+      "faq_002"
+    ],
+    "what": [
+      "faq_002",
+      "faq_007",
+      "faq_012",
+      "faq_015",
+      "faq_018",
+      "faq_020",
+      "faq_021",
+      "faq_022"
+    ],
+    "for": [
+      "faq_002",
+      "faq_002",
+      "faq_002",
+      "faq_004",
+      "faq_004",
+      "faq_005",
+      "faq_005",
+      "faq_007",
+      "faq_007",
+      "faq_007",
+      "faq_007",
+      "faq_010",
+      "faq_011",
+      "faq_012",
+      "faq_013",
+      "faq_013",
+      "faq_014",
+      "faq_015",
+      "faq_017",
+      "faq_017",
+      "faq_018",
+      "faq_018",
+      "faq_018",
+      "faq_020",
+      "faq_021",
+      "faq_021",
+      "faq_022",
+      "faq_023",
+      "faq_025"
+    ],
+    "verification?": [
+      "faq_002"
+    ],
+    "verification,": [
+      "faq_002",
+      "faq_024"
+    ],
+    "you": [
+      "faq_002",
+      "faq_005",
+      "faq_006",
+      "faq_011",
+      "faq_012",
+      "faq_016",
+      "faq_017",
+      "faq_018",
+      "faq_019"
+    ],
+    "need:": [
+      "faq_002"
+    ],
+    "photo": [
+      "faq_002"
+    ],
+    "(driver's": [
+      "faq_002"
+    ],
+    "license,": [
+      "faq_002"
+    ],
+    "passport,": [
+      "faq_002"
+    ],
+    "state": [
+      "faq_002",
+      "faq_018"
+    ],
+    "id),": [
+      "faq_002"
+    ],
+    "clear": [
+      "faq_002",
+      "faq_021",
+      "faq_022"
+    ],
+    "selfie": [
+      "faq_002"
+    ],
+    "facial": [
+      "faq_002"
+    ],
+    "recognition,": [
+      "faq_002"
+    ],
+    "proof": [
+      "faq_002"
+    ],
+    "address": [
+      "faq_002"
+    ],
+    "(utility": [
+      "faq_002"
+    ],
+    "bill,": [
+      "faq_002"
+    ],
+    "bank": [
+      "faq_002",
+      "faq_006",
+      "faq_016",
+      "faq_018",
+      "faq_024"
+    ],
+    "statement,": [
+      "faq_002"
+    ],
+    "lease": [
+      "faq_002"
+    ],
+    "agreement": [
+      "faq_002"
+    ],
+    "dated": [
+      "faq_002"
+    ],
+    "within": [
+      "faq_002",
+      "faq_010",
+      "faq_024"
+    ],
+    "days).": [
+      "faq_002"
+    ],
+    "all": [
+      "faq_002",
+      "faq_006",
+      "faq_010",
+      "faq_011",
+      "faq_013"
+    ],
+    "must": [
+      "faq_002"
+    ],
+    "current": [
+      "faq_002"
+    ],
+    "clearly": [
+      "faq_002"
+    ],
+    "readable.": [
+      "faq_002"
+    ],
+    "verification delay": [
+      "faq_003"
+    ],
+    "account pending": [
+      "faq_003"
+    ],
+    "verification time": [
+      "faq_003"
+    ],
+    "kyc delay": [
+      "faq_003"
+    ],
+    "why": [
+      "faq_003",
+      "faq_009",
+      "faq_024"
+    ],
+    "account": [
+      "faq_003",
+      "faq_003",
+      "faq_006",
+      "faq_007",
+      "faq_009",
+      "faq_011",
+      "faq_015",
+      "faq_015",
+      "faq_015",
+      "faq_017",
+      "faq_022"
+    ],
+    "long?": [
+      "faq_003"
+    ],
+    "24-48": [
+      "faq_003"
+    ],
+    "hours.": [
+      "faq_003"
+    ],
+    "delays": [
+      "faq_003"
+    ],
+    "may": [
+      "faq_003",
+      "faq_005",
+      "faq_008",
+      "faq_009",
+      "faq_017",
+      "faq_019",
+      "faq_024"
+    ],
+    "occur": [
+      "faq_003"
+    ],
+    "due": [
+      "faq_003",
+      "faq_009",
+      "faq_019",
+      "faq_019",
+      "faq_022",
+      "faq_024"
+    ],
+    "to:": [
+      "faq_003",
+      "faq_009",
+      "faq_019",
+      "faq_024"
+    ],
+    "unclear": [
+      "faq_003"
+    ],
+    "document": [
+      "faq_003"
+    ],
+    "photos,": [
+      "faq_003"
+    ],
+    "mismatched": [
+      "faq_003"
+    ],
+    "information,": [
+      "faq_003"
+    ],
+    "high": [
+      "faq_003"
+    ],
+    "volume,": [
+      "faq_003"
+    ],
+    "additional": [
+      "faq_003",
+      "faq_005",
+      "faq_019"
+    ],
+    "compliance": [
+      "faq_003",
+      "faq_018",
+      "faq_019",
+      "faq_024"
+    ],
+    "checks.": [
+      "faq_003",
+      "faq_005"
+    ],
+    "it's": [
+      "faq_003",
+      "faq_015"
+    ],
+    "been": [
+      "faq_003"
+    ],
+    "over": [
+      "faq_003"
+    ],
+    "hours,": [
+      "faq_003"
+    ],
+    "contact": [
+      "faq_003",
+      "faq_005",
+      "faq_010",
+      "faq_012",
+      "faq_015",
+      "faq_021",
+      "faq_023",
+      "faq_023"
+    ],
+    "support": [
+      "faq_003",
+      "faq_015",
+      "faq_021",
+      "faq_023",
+      "faq_023"
+    ],
+    "with": [
+      "faq_003",
+      "faq_007",
+      "faq_020",
+      "faq_023"
+    ],
+    "application": [
+      "faq_003"
+    ],
+    "reference": [
+      "faq_003"
+    ],
+    "password reset": [
+      "faq_004"
+    ],
+    "forgot password": [
+      "faq_004"
+    ],
+    "login issues": [
+      "faq_004"
+    ],
+    "account access": [
+      "faq_004"
+    ],
+    "reset": [
+      "faq_004",
+      "faq_004",
+      "faq_004",
+      "faq_004",
+      "faq_022"
+    ],
+    "password?": [
+      "faq_004"
+    ],
+    "password:": [
+      "faq_004"
+    ],
+    "login": [
+      "faq_004",
+      "faq_022"
+    ],
+    "page": [
+      "faq_004"
+    ],
+    "'forgot": [
+      "faq_004"
+    ],
+    "password',": [
+      "faq_004"
+    ],
+    "enter": [
+      "faq_004"
+    ],
+    "registered": [
+      "faq_004",
+      "faq_005"
+    ],
+    "address,": [
+      "faq_004"
+    ],
+    "check": [
+      "faq_004",
+      "faq_009",
+      "faq_021",
+      "faq_021",
+      "faq_022",
+      "faq_022"
+    ],
+    "password": [
+      "faq_004",
+      "faq_012",
+      "faq_022"
+    ],
+    "link,": [
+      "faq_004"
+    ],
+    "link": [
+      "faq_004",
+      "faq_004"
+    ],
+    "expires": [
+      "faq_004"
+    ],
+    "hour": [
+      "faq_004"
+    ],
+    "security.": [
+      "faq_004"
+    ],
+    "change email": [
+      "faq_005"
+    ],
+    "change phone": [
+      "faq_005"
+    ],
+    "update contact": [
+      "faq_005"
+    ],
+    "profile settings": [
+      "faq_005"
+    ],
+    "can": [
+      "faq_005",
+      "faq_005",
+      "faq_006"
+    ],
+    "change": [
+      "faq_005",
+      "faq_012",
+      "faq_015"
+    ],
+    "number?": [
+      "faq_005"
+    ],
+    "yes,": [
+      "faq_005",
+      "faq_014",
+      "faq_016"
+    ],
+    "update": [
+      "faq_005",
+      "faq_025",
+      "faq_025"
+    ],
+    "information": [
+      "faq_005",
+      "faq_014",
+      "faq_014"
+    ],
+    "settings": [
+      "faq_005",
+      "faq_013"
+    ],
+    "profile.": [
+      "faq_005"
+    ],
+    "changes,": [
+      "faq_005",
+      "faq_005"
+    ],
+    "receive": [
+      "faq_005"
+    ],
+    "emails": [
+      "faq_005"
+    ],
+    "both": [
+      "faq_005"
+    ],
+    "old": [
+      "faq_005"
+    ],
+    "addresses.": [
+      "faq_005"
+    ],
+    "sms": [
+      "faq_005",
+      "faq_013",
+      "faq_015"
+    ],
+    "required.": [
+      "faq_005"
+    ],
+    "these": [
+      "faq_005",
+      "faq_007"
+    ],
+    "changes": [
+      "faq_005"
+    ],
+    "trigger": [
+      "faq_005"
+    ],
+    "security": [
+      "faq_005",
+      "faq_011",
+      "faq_014"
+    ],
+    "add money": [
+      "faq_006"
+    ],
+    "deposit": [
+      "faq_006",
+      "faq_006"
+    ],
+    "fund account": [
+      "faq_006"
+    ],
+    "bank transfer": [
+      "faq_006"
+    ],
+    "debit card": [
+      "faq_006"
+    ],
+    "add": [
+      "faq_006",
+      "faq_006"
+    ],
+    "money": [
+      "faq_006",
+      "faq_006",
+      "faq_016",
+      "faq_016",
+      "faq_018"
+    ],
+    "through:": [
+      "faq_006",
+      "faq_023"
+    ],
+    "transfer": [
+      "faq_006",
+      "faq_006",
+      "faq_008",
+      "faq_024"
+    ],
+    "(ach)": [
+      "faq_006"
+    ],
+    "free,": [
+      "faq_006"
+    ],
+    "1-3": [
+      "faq_006",
+      "faq_008",
+      "faq_024"
+    ],
+    "business": [
+      "faq_006",
+      "faq_008",
+      "faq_008",
+      "faq_008",
+      "faq_010",
+      "faq_024"
+    ],
+    "days,": [
+      "faq_006",
+      "faq_008"
+    ],
+    "debit": [
+      "faq_006",
+      "faq_007"
+    ],
+    "card": [
+      "faq_006",
+      "faq_007"
+    ],
+    "instant,": [
+      "faq_006",
+      "faq_008"
+    ],
+    "small": [
+      "faq_006"
+    ],
+    "fee": [
+      "faq_006"
+    ],
+    "applies,": [
+      "faq_006"
+    ],
+    "wire": [
+      "faq_006",
+      "faq_008"
+    ],
+    "same": [
+      "faq_006",
+      "faq_008"
+    ],
+    "day,": [
+      "faq_006",
+      "faq_008"
+    ],
+    "higher": [
+      "faq_006",
+      "faq_007"
+    ],
+    "fee,": [
+      "faq_006"
+    ],
+    "direct": [
+      "faq_006"
+    ],
+    "set": [
+      "faq_006"
+    ],
+    "through": [
+      "faq_006",
+      "faq_016"
+    ],
+    "employer.": [
+      "faq_006"
+    ],
+    "methods": [
+      "faq_006"
+    ],
+    "require": [
+      "faq_006"
+    ],
+    "verification.": [
+      "faq_006"
+    ],
+    "transaction limits": [
+      "faq_007"
+    ],
+    "daily limits": [
+      "faq_007"
+    ],
+    "monthly limits": [
+      "faq_007"
+    ],
+    "transfer limits": [
+      "faq_007"
+    ],
+    "withdrawal limits": [
+      "faq_007"
+    ],
+    "are": [
+      "faq_007",
+      "faq_016",
+      "faq_016",
+      "faq_019",
+      "faq_020"
+    ],
+    "transaction": [
+      "faq_007",
+      "faq_009",
+      "faq_010",
+      "faq_024"
+    ],
+    "limits?": [
+      "faq_007"
+    ],
+    "daily": [
+      "faq_007"
+    ],
+    "limits:": [
+      "faq_007",
+      "faq_007"
+    ],
+    "$5,000": [
+      "faq_007"
+    ],
+    "transfers,": [
+      "faq_007"
+    ],
+    "$2,500": [
+      "faq_007"
+    ],
+    "atm": [
+      "faq_007"
+    ],
+    "withdrawals,": [
+      "faq_007"
+    ],
+    "$10,000": [
+      "faq_007"
+    ],
+    "purchases.": [
+      "faq_007"
+    ],
+    "monthly": [
+      "faq_007"
+    ],
+    "$50,000": [
+      "faq_007"
+    ],
+    "transfers.": [
+      "faq_007"
+    ],
+    "limits": [
+      "faq_007",
+      "faq_009",
+      "faq_009"
+    ],
+    "increase": [
+      "faq_007"
+    ],
+    "level": [
+      "faq_007"
+    ],
+    "history.": [
+      "faq_007"
+    ],
+    "premium": [
+      "faq_007"
+    ],
+    "accounts": [
+      "faq_007",
+      "faq_016"
+    ],
+    "have": [
+      "faq_007"
+    ],
+    "limits.": [
+      "faq_007"
+    ],
+    "transfer time": [
+      "faq_008"
+    ],
+    "ach transfer": [
+      "faq_008"
+    ],
+    "wire transfer": [
+      "faq_008"
+    ],
+    "international transfer": [
+      "faq_008"
+    ],
+    "transfer speed": [
+      "faq_008"
+    ],
+    "long": [
+      "faq_008"
+    ],
+    "transfers": [
+      "faq_008",
+      "faq_008",
+      "faq_008",
+      "faq_008",
+      "faq_008",
+      "faq_008"
+    ],
+    "take?": [
+      "faq_008"
+    ],
+    "times": [
+      "faq_008"
+    ],
+    "vary:": [
+      "faq_008"
+    ],
+    "internal": [
+      "faq_008"
+    ],
+    "(same": [
+      "faq_008"
+    ],
+    "bank)": [
+      "faq_008"
+    ],
+    "ach": [
+      "faq_008"
+    ],
+    "international": [
+      "faq_008",
+      "faq_018",
+      "faq_019",
+      "faq_019",
+      "faq_024"
+    ],
+    "3-5": [
+      "faq_008"
+    ],
+    "days.": [
+      "faq_008",
+      "faq_010",
+      "faq_024"
+    ],
+    "weekend": [
+      "faq_008"
+    ],
+    "holiday": [
+      "faq_008"
+    ],
+    "delayed": [
+      "faq_008"
+    ],
+    "until": [
+      "faq_008"
+    ],
+    "next": [
+      "faq_008"
+    ],
+    "day.": [
+      "faq_008"
+    ],
+    "transaction declined": [
+      "faq_009"
+    ],
+    "payment failed": [
+      "faq_009"
+    ],
+    "insufficient funds": [
+      "faq_009"
+    ],
+    "declined transaction": [
+      "faq_009"
+    ],
+    "was": [
+      "faq_009"
+    ],
+    "declined?": [
+      "faq_009"
+    ],
+    "transactions": [
+      "faq_009",
+      "faq_012",
+      "faq_013",
+      "faq_019",
+      "faq_024",
+      "faq_024"
+    ],
+    "declined": [
+      "faq_009"
+    ],
+    "insufficient": [
+      "faq_009",
+      "faq_024"
+    ],
+    "funds,": [
+      "faq_009"
+    ],
+    "daily/monthly": [
+      "faq_009"
+    ],
+    "exceeded,": [
+      "faq_009"
+    ],
+    "suspicious": [
+      "faq_009",
+      "faq_011",
+      "faq_012",
+      "faq_015"
+    ],
+    "activity": [
+      "faq_009",
+      "faq_011",
+      "faq_017"
+    ],
+    "detection,": [
+      "faq_009"
+    ],
+    "incorrect": [
+      "faq_009"
+    ],
+    "payment": [
+      "faq_009",
+      "faq_017",
+      "faq_018"
+    ],
+    "details,": [
+      "faq_009"
+    ],
+    "merchant": [
+      "faq_009"
+    ],
+    "restrictions,": [
+      "faq_009"
+    ],
+    "temporary": [
+      "faq_009"
+    ],
+    "system": [
+      "faq_009",
+      "faq_024"
+    ],
+    "maintenance.": [
+      "faq_009",
+      "faq_024"
+    ],
+    "balance": [
+      "faq_009"
+    ],
+    "first.": [
+      "faq_009"
+    ],
+    "dispute transaction": [
+      "faq_010"
+    ],
+    "chargeback": [
+      "faq_010"
+    ],
+    "unauthorized transaction": [
+      "faq_010"
+    ],
+    "transaction dispute": [
+      "faq_010"
+    ],
+    "dispute": [
+      "faq_010",
+      "faq_010"
+    ],
+    "transaction?": [
+      "faq_010"
+    ],
+    "transaction:": [
+      "faq_010"
+    ],
+    "days": [
+      "faq_010"
+    ],
+    "transaction,": [
+      "faq_010"
+    ],
+    "details": [
+      "faq_010"
+    ],
+    "reason": [
+      "faq_010"
+    ],
+    "dispute,": [
+      "faq_010"
+    ],
+    "we'll": [
+      "faq_010",
+      "faq_012"
+    ],
+    "investigate": [
+      "faq_010"
+    ],
+    "provisional": [
+      "faq_010"
+    ],
+    "credit": [
+      "faq_010",
+      "faq_017",
+      "faq_017",
+      "faq_017"
+    ],
+    "applicable,": [
+      "faq_010"
+    ],
+    "resolution": [
+      "faq_010"
+    ],
+    "keep": [
+      "faq_010"
+    ],
+    "relevant": [
+      "faq_010"
+    ],
+    "documentation.": [
+      "faq_010"
+    ],
+    "fraud protection": [
+      "faq_011"
+    ],
+    "account security": [
+      "faq_011"
+    ],
+    "encryption": [
+      "faq_011",
+      "faq_014",
+      "faq_014"
+    ],
+    "2fa": [
+      "faq_011",
+      "faq_013",
+      "faq_013",
+      "faq_015"
+    ],
+    "fraud monitoring": [
+      "faq_011"
+    ],
+    "protect": [
+      "faq_011"
+    ],
+    "from": [
+      "faq_011",
+      "faq_015"
+    ],
+    "fraud?": [
+      "faq_011"
+    ],
+    "use": [
+      "faq_011",
+      "faq_014",
+      "faq_025"
+    ],
+    "multiple": [
+      "faq_011",
+      "faq_022"
+    ],
+    "layers:": [
+      "faq_011"
+    ],
+    "256-bit": [
+      "faq_011"
+    ],
+    "ssl": [
+      "faq_011"
+    ],
+    "encryption,": [
+      "faq_011"
+    ],
+    "two-factor": [
+      "faq_011",
+      "faq_013"
+    ],
+    "authentication": [
+      "faq_011"
+    ],
+    "(2fa),": [
+      "faq_011"
+    ],
+    "real-time": [
+      "faq_011"
+    ],
+    "fraud": [
+      "faq_011",
+      "faq_012",
+      "faq_012",
+      "faq_023"
+    ],
+    "monitoring,": [
+      "faq_011"
+    ],
+    "device": [
+      "faq_011",
+      "faq_015",
+      "faq_021"
+    ],
+    "fingerprinting,": [
+      "faq_011"
+    ],
+    "biometric": [
+      "faq_011"
+    ],
+    "authentication,": [
+      "faq_011"
+    ],
+    "ai-powered": [
+      "faq_011"
+    ],
+    "detection.": [
+      "faq_011"
+    ],
+    "also": [
+      "faq_011",
+      "faq_017"
+    ],
+    "send": [
+      "faq_011"
+    ],
+    "instant": [
+      "faq_011"
+    ],
+    "notifications": [
+      "faq_011"
+    ],
+    "transactions.": [
+      "faq_011"
+    ],
+    "fraud alert": [
+      "faq_012"
+    ],
+    "suspicious activity": [
+      "faq_012"
+    ],
+    "account compromised": [
+      "faq_012"
+    ],
+    "identity theft": [
+      "faq_012"
+    ],
+    "fraud hotline": [
+      "faq_012"
+    ],
+    "should": [
+      "faq_012",
+      "faq_021",
+      "faq_022"
+    ],
+    "suspect": [
+      "faq_012",
+      "faq_012"
+    ],
+    "fraud:": [
+      "faq_012"
+    ],
+    "immediately": [
+      "faq_012",
+      "faq_015"
+    ],
+    "24/7": [
+      "faq_012"
+    ],
+    "hotline,": [
+      "faq_012"
+    ],
+    "enable": [
+      "faq_012",
+      "faq_013",
+      "faq_013",
+      "faq_015",
+      "faq_025"
+    ],
+    "2fa,": [
+      "faq_012"
+    ],
+    "review": [
+      "faq_012"
+    ],
+    "recent": [
+      "faq_012"
+    ],
+    "transactions,": [
+      "faq_012"
+    ],
+    "freeze": [
+      "faq_012"
+    ],
+    "issue": [
+      "faq_012"
+    ],
+    "cards": [
+      "faq_012"
+    ],
+    "needed,": [
+      "faq_012",
+      "faq_022"
+    ],
+    "file": [
+      "faq_012"
+    ],
+    "police": [
+      "faq_012"
+    ],
+    "report": [
+      "faq_012",
+      "faq_017",
+      "faq_017",
+      "faq_017"
+    ],
+    "theft": [
+      "faq_012"
+    ],
+    "applicable.": [
+      "faq_012"
+    ],
+    "two-factor authentication": [
+      "faq_013"
+    ],
+    "security settings": [
+      "faq_013"
+    ],
+    "authenticator app": [
+      "faq_013"
+    ],
+    "backup codes": [
+      "faq_013"
+    ],
+    "authentication?": [
+      "faq_013"
+    ],
+    "2fa:": [
+      "faq_013"
+    ],
+    "security,": [
+      "faq_013"
+    ],
+    "select": [
+      "faq_013"
+    ],
+    "'two-factor": [
+      "faq_013"
+    ],
+    "authentication',": [
+      "faq_013"
+    ],
+    "choose": [
+      "faq_013"
+    ],
+    "authenticator": [
+      "faq_013"
+    ],
+    "app,": [
+      "faq_013",
+      "faq_021"
+    ],
+    "follow": [
+      "faq_013",
+      "faq_020"
+    ],
+    "setup": [
+      "faq_013"
+    ],
+    "instructions,": [
+      "faq_013"
+    ],
+    "save": [
+      "faq_013"
+    ],
+    "backup": [
+      "faq_013",
+      "faq_015"
+    ],
+    "codes": [
+      "faq_013"
+    ],
+    "securely.": [
+      "faq_013"
+    ],
+    "required": [
+      "faq_013",
+      "faq_020"
+    ],
+    "high-value": [
+      "faq_013"
+    ],
+    "recommended": [
+      "faq_013"
+    ],
+    "users.": [
+      "faq_013"
+    ],
+    "data security": [
+      "faq_014"
+    ],
+    "privacy": [
+      "faq_014",
+      "faq_020",
+      "faq_020",
+      "faq_020"
+    ],
+    "soc 2": [
+      "faq_014"
+    ],
+    "personal information": [
+      "faq_014"
+    ],
+    "personal": [
+      "faq_014",
+      "faq_014"
+    ],
+    "secure?": [
+      "faq_014"
+    ],
+    "bank-level": [
+      "faq_014"
+    ],
+    "security:": [
+      "faq_014"
+    ],
+    "data": [
+      "faq_014",
+      "faq_020",
+      "faq_020",
+      "faq_020",
+      "faq_020"
+    ],
+    "rest": [
+      "faq_014"
+    ],
+    "transit,": [
+      "faq_014"
+    ],
+    "soc": [
+      "faq_014"
+    ],
+    "type": [
+      "faq_014"
+    ],
+    "compliance,": [
+      "faq_014"
+    ],
+    "regular": [
+      "faq_014",
+      "faq_020"
+    ],
+    "audits,": [
+      "faq_014"
+    ],
+    "zero-knowledge": [
+      "faq_014"
+    ],
+    "architecture": [
+      "faq_014"
+    ],
+    "sensitive": [
+      "faq_014"
+    ],
+    "data,": [
+      "faq_014"
+    ],
+    "strict": [
+      "faq_014",
+      "faq_020"
+    ],
+    "access": [
+      "faq_014"
+    ],
+    "controls.": [
+      "faq_014"
+    ],
+    "never": [
+      "faq_014"
+    ],
+    "sell": [
+      "faq_014"
+    ],
+    "third": [
+      "faq_014"
+    ],
+    "parties.": [
+      "faq_014"
+    ],
+    "lost phone": [
+      "faq_015"
+    ],
+    "stolen device": [
+      "faq_015"
+    ],
+    "mobile security": [
+      "faq_015"
+    ],
+    "account lock": [
+      "faq_015"
+    ],
+    "device management": [
+      "faq_015"
+    ],
+    "happens": [
+      "faq_015"
+    ],
+    "lose": [
+      "faq_015"
+    ],
+    "stolen?": [
+      "faq_015"
+    ],
+    "lost/stolen:": [
+      "faq_015"
+    ],
+    "log": [
+      "faq_015",
+      "faq_022"
+    ],
+    "into": [
+      "faq_015",
+      "faq_022"
+    ],
+    "another": [
+      "faq_015"
+    ],
+    "lock,": [
+      "faq_015"
+    ],
+    "disable": [
+      "faq_015",
+      "faq_015",
+      "faq_022"
+    ],
+    "app": [
+      "faq_015",
+      "faq_021",
+      "faq_021",
+      "faq_021",
+      "faq_021",
+      "faq_021",
+      "faq_025",
+      "faq_025",
+      "faq_025",
+      "faq_025",
+      "faq_025"
+    ],
+    "access,": [
+      "faq_015"
+    ],
+    "password,": [
+      "faq_015",
+      "faq_022"
+    ],
+    "switch": [
+      "faq_015"
+    ],
+    "method,": [
+      "faq_015"
+    ],
+    "monitor": [
+      "faq_015"
+    ],
+    "activity.": [
+      "faq_015"
+    ],
+    "fdic insurance": [
+      "faq_016"
+    ],
+    "deposit protection": [
+      "faq_016"
+    ],
+    "bank insurance": [
+      "faq_016"
+    ],
+    "fdic coverage": [
+      "faq_016"
+    ],
+    "fdic": [
+      "faq_016",
+      "faq_016",
+      "faq_016"
+    ],
+    "insured?": [
+      "faq_016"
+    ],
+    "deposits": [
+      "faq_016"
+    ],
+    "insured": [
+      "faq_016"
+    ],
+    "$250,000": [
+      "faq_016"
+    ],
+    "per": [
+      "faq_016"
+    ],
+    "depositor": [
+      "faq_016"
+    ],
+    "partner": [
+      "faq_016"
+    ],
+    "banks.": [
+      "faq_016"
+    ],
+    "this": [
+      "faq_016"
+    ],
+    "means": [
+      "faq_016"
+    ],
+    "protected": [
+      "faq_016"
+    ],
+    "even": [
+      "faq_016"
+    ],
+    "fails.": [
+      "faq_016"
+    ],
+    "insurance": [
+      "faq_016"
+    ],
+    "covers": [
+      "faq_016"
+    ],
+    "checking,": [
+      "faq_016"
+    ],
+    "savings,": [
+      "faq_016"
+    ],
+    "market": [
+      "faq_016"
+    ],
+    "but": [
+      "faq_016"
+    ],
+    "not": [
+      "faq_016",
+      "faq_021"
+    ],
+    "investments.": [
+      "faq_016"
+    ],
+    "credit reporting": [
+      "faq_017"
+    ],
+    "credit bureaus": [
+      "faq_017"
+    ],
+    "credit score": [
+      "faq_017"
+    ],
+    "credit history": [
+      "faq_017"
+    ],
+    "credit check": [
+      "faq_017"
+    ],
+    "bureaus?": [
+      "faq_017"
+    ],
+    "positive": [
+      "faq_017"
+    ],
+    "history": [
+      "faq_017"
+    ],
+    "certain": [
+      "faq_017"
+    ],
+    "products": [
+      "faq_017"
+    ],
+    "(like": [
+      "faq_017"
+    ],
+    "secured": [
+      "faq_017"
+    ],
+    "cards)": [
+      "faq_017"
+    ],
+    "help": [
+      "faq_017",
+      "faq_023"
+    ],
+    "build": [
+      "faq_017"
+    ],
+    "credit.": [
+      "faq_017"
+    ],
+    "negative": [
+      "faq_017"
+    ],
+    "like": [
+      "faq_017"
+    ],
+    "defaults": [
+      "faq_017"
+    ],
+    "fraud.": [
+      "faq_017"
+    ],
+    "don't": [
+      "faq_017"
+    ],
+    "perform": [
+      "faq_017"
+    ],
+    "hard": [
+      "faq_017"
+    ],
+    "checks": [
+      "faq_017"
+    ],
+    "standard": [
+      "faq_017"
+    ],
+    "opening.": [
+      "faq_017"
+    ],
+    "regulations": [
+      "faq_018",
+      "faq_018"
+    ],
+    "bsa": [
+      "faq_018"
+    ],
+    "aml": [
+      "faq_018"
+    ],
+    "gdpr": [
+      "faq_018",
+      "faq_018"
+    ],
+    "ccpa": [
+      "faq_018",
+      "faq_018"
+    ],
+    "pci dss": [
+      "faq_018"
+    ],
+    "comply": [
+      "faq_018",
+      "faq_018"
+    ],
+    "with?": [
+      "faq_018"
+    ],
+    "with:": [
+      "faq_018"
+    ],
+    "secrecy": [
+      "faq_018"
+    ],
+    "act": [
+      "faq_018"
+    ],
+    "(bsa),": [
+      "faq_018"
+    ],
+    "anti-money": [
+      "faq_018"
+    ],
+    "laundering": [
+      "faq_018"
+    ],
+    "(aml)": [
+      "faq_018"
+    ],
+    "regulations,": [
+      "faq_018"
+    ],
+    "know": [
+      "faq_018"
+    ],
+    "customer": [
+      "faq_018",
+      "faq_023"
+    ],
+    "(kyc)": [
+      "faq_018"
+    ],
+    "requirements,": [
+      "faq_018"
+    ],
+    "users,": [
+      "faq_018"
+    ],
+    "california": [
+      "faq_018"
+    ],
+    "residents,": [
+      "faq_018"
+    ],
+    "pci": [
+      "faq_018"
+    ],
+    "dss": [
+      "faq_018"
+    ],
+    "processing,": [
+      "faq_018",
+      "faq_024"
+    ],
+    "transmitter": [
+      "faq_018"
+    ],
+    "licenses.": [
+      "faq_018"
+    ],
+    "international transactions": [
+      "faq_019"
+    ],
+    "ofac": [
+      "faq_019",
+      "faq_019"
+    ],
+    "sanctions": [
+      "faq_019",
+      "faq_019"
+    ],
+    "currency conversion": [
+      "faq_019"
+    ],
+    "cross-border": [
+      "faq_019"
+    ],
+    "handle": [
+      "faq_019"
+    ],
+    "transactions?": [
+      "faq_019"
+    ],
+    "subject": [
+      "faq_019"
+    ],
+    "checks,": [
+      "faq_019"
+    ],
+    "screening,": [
+      "faq_019"
+    ],
+    "enhanced": [
+      "faq_019"
+    ],
+    "diligence,": [
+      "faq_019"
+    ],
+    "currency": [
+      "faq_019"
+    ],
+    "conversion": [
+      "faq_019"
+    ],
+    "fees,": [
+      "faq_019"
+    ],
+    "longer": [
+      "faq_019"
+    ],
+    "processing": [
+      "faq_019",
+      "faq_024"
+    ],
+    "times.": [
+      "faq_019"
+    ],
+    "some": [
+      "faq_019"
+    ],
+    "countries": [
+      "faq_019"
+    ],
+    "restricted": [
+      "faq_019"
+    ],
+    "regulatory": [
+      "faq_019"
+    ],
+    "requirements.": [
+      "faq_019"
+    ],
+    "privacy policy": [
+      "faq_020"
+    ],
+    "data protection": [
+      "faq_020"
+    ],
+    "user consent": [
+      "faq_020"
+    ],
+    "data rights": [
+      "faq_020"
+    ],
+    "privacy practices": [
+      "faq_020"
+    ],
+    "practices?": [
+      "faq_020"
+    ],
+    "practices:": [
+      "faq_020"
+    ],
+    "minimization,": [
+      "faq_020"
+    ],
+    "purpose": [
+      "faq_020"
+    ],
+    "limitation,": [
+      "faq_020"
+    ],
+    "user": [
+      "faq_020"
+    ],
+    "consent": [
+      "faq_020"
+    ],
+    "collection,": [
+      "faq_020"
+    ],
+    "right": [
+      "faq_020",
+      "faq_020"
+    ],
+    "portability,": [
+      "faq_020"
+    ],
+    "deletion,": [
+      "faq_020"
+    ],
+    "impact": [
+      "faq_020"
+    ],
+    "assessments,": [
+      "faq_020"
+    ],
+    "third-party": [
+      "faq_020"
+    ],
+    "sharing": [
+      "faq_020"
+    ],
+    "only": [
+      "faq_020"
+    ],
+    "when": [
+      "faq_020"
+    ],
+    "legally": [
+      "faq_020"
+    ],
+    "explicit": [
+      "faq_020"
+    ],
+    "consent.": [
+      "faq_020"
+    ],
+    "app not working": [
+      "faq_021"
+    ],
+    "technical issues": [
+      "faq_021"
+    ],
+    "app troubleshooting": [
+      "faq_021"
+    ],
+    "mobile app problems": [
+      "faq_021"
+    ],
+    "working": [
+      "faq_021"
+    ],
+    "properly.": [
+      "faq_021"
+    ],
+    "do?": [
+      "faq_021",
+      "faq_022"
+    ],
+    "issues:": [
+      "faq_021",
+      "faq_022"
+    ],
+    "force": [
+      "faq_021"
+    ],
+    "close": [
+      "faq_021"
+    ],
+    "restart": [
+      "faq_021",
+      "faq_021"
+    ],
+    "updates": [
+      "faq_021",
+      "faq_025",
+      "faq_025"
+    ],
+    "store,": [
+      "faq_021"
+    ],
+    "device,": [
+      "faq_021"
+    ],
+    "internet": [
+      "faq_021"
+    ],
+    "connection,": [
+      "faq_021"
+    ],
+    "cache": [
+      "faq_021",
+      "faq_022"
+    ],
+    "(android)": [
+      "faq_021"
+    ],
+    "reinstall": [
+      "faq_021"
+    ],
+    "(ios),": [
+      "faq_021"
+    ],
+    "issues": [
+      "faq_021"
+    ],
+    "persist.": [
+      "faq_021"
+    ],
+    "include": [
+      "faq_021"
+    ],
+    "model": [
+      "faq_021"
+    ],
+    "version.": [
+      "faq_021"
+    ],
+    "login problems": [
+      "faq_022"
+    ],
+    "can't log in": [
+      "faq_022"
+    ],
+    "account locked": [
+      "faq_022"
+    ],
+    "login error": [
+      "faq_022"
+    ],
+    "access issues": [
+      "faq_022"
+    ],
+    "can't": [
+      "faq_022"
+    ],
+    "account.": [
+      "faq_022"
+    ],
+    "email/username": [
+      "faq_022"
+    ],
+    "caps": [
+      "faq_022"
+    ],
+    "lock": [
+      "faq_022"
+    ],
+    "on,": [
+      "faq_022"
+    ],
+    "try": [
+      "faq_022",
+      "faq_022"
+    ],
+    "browser": [
+      "faq_022"
+    ],
+    "incognito": [
+      "faq_022"
+    ],
+    "mode,": [
+      "faq_022"
+    ],
+    "vpn": [
+      "faq_022"
+    ],
+    "using": [
+      "faq_022"
+    ],
+    "one,": [
+      "faq_022"
+    ],
+    "locked": [
+      "faq_022"
+    ],
+    "failed": [
+      "faq_022"
+    ],
+    "attempts.": [
+      "faq_022"
+    ],
+    "customer support": [
+      "faq_023"
+    ],
+    "contact support": [
+      "faq_023"
+    ],
+    "help desk": [
+      "faq_023"
+    ],
+    "phone support": [
+      "faq_023"
+    ],
+    "chat support": [
+      "faq_023"
+    ],
+    "support?": [
+      "faq_023"
+    ],
+    "in-app": [
+      "faq_023"
+    ],
+    "chat": [
+      "faq_023"
+    ],
+    "(24/7),": [
+      "faq_023"
+    ],
+    "phone:": [
+      "faq_023"
+    ],
+    "1-800-fintech": [
+      "faq_023"
+    ],
+    "(business": [
+      "faq_023"
+    ],
+    "hours),": [
+      "faq_023"
+    ],
+    "email:": [
+      "faq_023"
+    ],
+    "support@company.com,": [
+      "faq_023"
+    ],
+    "center": [
+      "faq_023"
+    ],
+    "faqs,": [
+      "faq_023"
+    ],
+    "video": [
+      "faq_023"
+    ],
+    "call": [
+      "faq_023"
+    ],
+    "complex": [
+      "faq_023"
+    ],
+    "issues.": [
+      "faq_023"
+    ],
+    "emergency": [
+      "faq_023"
+    ],
+    "line": [
+      "faq_023"
+    ],
+    "available": [
+      "faq_023"
+    ],
+    "24/7.": [
+      "faq_023"
+    ],
+    "pending transaction": [
+      "faq_024"
+    ],
+    "transaction status": [
+      "faq_024"
+    ],
+    "processing delay": [
+      "faq_024"
+    ],
+    "transaction pending": [
+      "faq_024"
+    ],
+    "pending?": [
+      "faq_024"
+    ],
+    "pending": [
+      "faq_024",
+      "faq_024"
+    ],
+    "times,": [
+      "faq_024"
+    ],
+    "reviews,": [
+      "faq_024"
+    ],
+    "funds": [
+      "faq_024"
+    ],
+    "weekend/holiday": [
+      "faq_024"
+    ],
+    "delays,": [
+      "faq_024"
+    ],
+    "most": [
+      "faq_024"
+    ],
+    "resolve": [
+      "faq_024"
+    ],
+    "app update": [
+      "faq_025"
+    ],
+    "latest version": [
+      "faq_025"
+    ],
+    "update app": [
+      "faq_025"
+    ],
+    "app store": [
+      "faq_025"
+    ],
+    "google play": [
+      "faq_025"
+    ],
+    "latest": [
+      "faq_025"
+    ],
+    "version?": [
+      "faq_025"
+    ],
+    "app:": [
+      "faq_025"
+    ],
+    "ios": [
+      "faq_025"
+    ],
+    "store": [
+      "faq_025",
+      "faq_025"
+    ],
+    "find": [
+      "faq_025",
+      "faq_025"
+    ],
+    "tap": [
+      "faq_025",
+      "faq_025"
+    ],
+    "update.": [
+      "faq_025",
+      "faq_025"
+    ],
+    "android": [
+      "faq_025"
+    ],
+    "google": [
+      "faq_025"
+    ],
+    "play": [
+      "faq_025"
+    ],
+    "apps": [
+      "faq_025"
+    ],
+    "games": [
+      "faq_025"
+    ],
+    "automatic": [
+      "faq_025"
+    ],
+    "seamless": [
+      "faq_025"
+    ],
+    "experience.": [
+      "faq_025"
+    ],
+    "always": [
+      "faq_025"
+    ],
+    "official": [
+      "faq_025"
+    ],
+    "stores.": [
+      "faq_025"
+    ]
+  },
+  "category_index": {
+    "Account & Registration": [
+      "faq_001",
+      "faq_002",
+      "faq_003",
+      "faq_004",
+      "faq_005"
+    ],
+    "Payments & Transactions": [
+      "faq_006",
+      "faq_007",
+      "faq_008",
+      "faq_009",
+      "faq_010"
+    ],
+    "Security & Fraud Prevention": [
+      "faq_011",
+      "faq_012",
+      "faq_013",
+      "faq_014",
+      "faq_015"
+    ],
+    "Regulations & Compliance": [
+      "faq_016",
+      "faq_017",
+      "faq_018",
+      "faq_019",
+      "faq_020"
+    ],
+    "Technical Support & Troubleshooting": [
+      "faq_021",
+      "faq_022",
+      "faq_023",
+      "faq_024",
+      "faq_025"
+    ]
+  }
+}

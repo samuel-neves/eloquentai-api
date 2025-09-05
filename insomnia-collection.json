@@ -1,0 +1,580 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2024-01-15T10:00:00.000Z",
+  "__export_source": "insomnia.desktop.app:v2023.5.8",
+  "resources": [
+    {
+      "_id": "req_01_root",
+      "parentId": "fld_main",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}",
+      "name": "Root - Welcome",
+      "description": "Get API welcome message and available endpoints",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1705315200000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_02_health",
+      "parentId": "fld_main",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/health",
+      "name": "Health Check",
+      "description": "Check API health status",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1705315199000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_03_chat_health",
+      "parentId": "fld_chat",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/chat/health",
+      "name": "Chat Health Check",
+      "description": "Check chat service health",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1705315198000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_04_chat_send",
+      "parentId": "fld_chat",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/chat",
+      "name": "Send Chat Message",
+      "description": "Send a message to the chatbot",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"message\": \"How do I create a new account?\",\n  \"conversation_id\": null\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Authorization",
+          "value": "Bearer {{ _.session_token }}",
+          "disabled": false
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1705315197000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_05_auth_anonymous",
+      "parentId": "fld_auth",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/auth/anonymous",
+      "name": "Create Anonymous Session",
+      "description": "Create an anonymous session for unauthenticated users",
+      "method": "POST",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1705315196000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_06_auth_demo_credentials",
+      "parentId": "fld_auth",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/auth/demo-credentials",
+      "name": "Get Demo Credentials",
+      "description": "Get demo login credentials",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1705315195000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_07_auth_login",
+      "parentId": "fld_auth",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/auth/login",
+      "name": "User Login",
+      "description": "Login with email and password",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"email\": \"demo@fintech.com\",\n  \"password\": \"demo123\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1705315194000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_08_auth_session",
+      "parentId": "fld_auth",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/auth/session",
+      "name": "Get Session Info",
+      "description": "Get current session information",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer {{ _.session_token }}"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1705315193000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_09_auth_logout",
+      "parentId": "fld_auth",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/auth/logout",
+      "name": "User Logout",
+      "description": "Logout current user",
+      "method": "POST",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer {{ _.session_token }}"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1705315192000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_10_fintech_categories",
+      "parentId": "fld_fintech",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/fintech/categories",
+      "name": "Get Fintech Categories",
+      "description": "Get all available fintech categories",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1705315191000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_11_fintech_ask_by_category",
+      "parentId": "fld_fintech",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/fintech/ask-by-category",
+      "name": "Ask Question by Category",
+      "description": "Ask a question in a specific category",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"question\": \"What are your daily transaction limits?\",\n  \"category\": \"Payments & Transactions\"\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Authorization",
+          "value": "Bearer {{ _.session_token }}",
+          "disabled": true
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1705315190000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_12_fintech_search_by_category",
+      "parentId": "fld_fintech",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/fintech/search-by-category/Account%20%26%20Registration",
+      "name": "Search by Category",
+      "description": "Search for FAQs within a specific category",
+      "method": "GET",
+      "body": {},
+      "parameters": [
+        {
+          "name": "query",
+          "value": "account creation",
+          "description": "Search query"
+        },
+        {
+          "name": "limit",
+          "value": "5",
+          "description": "Number of results to return"
+        }
+      ],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1705315189000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_13_fintech_category_stats",
+      "parentId": "fld_fintech",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/fintech/category-stats/Security%20%26%20Fraud%20Prevention",
+      "name": "Get Category Stats",
+      "description": "Get statistics for a specific category",
+      "method": "GET",
+      "body": {},
+      "parameters": [],
+      "headers": [],
+      "authentication": {},
+      "metaSortKey": -1705315188000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_14_documents_upload",
+      "parentId": "fld_documents",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/documents/upload",
+      "name": "Upload Document",
+      "description": "Upload a document to the knowledge base",
+      "method": "POST",
+      "body": {
+        "mimeType": "application/json",
+        "text": "{\n  \"title\": \"Sample FAQ Document\",\n  \"content\": \"Q: How do I reset my password?\\nA: You can reset your password by clicking on the 'Forgot Password' link on the login page.\",\n  \"metadata\": {\n    \"category\": \"Account Management\",\n    \"type\": \"FAQ\"\n  }\n}"
+      },
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Content-Type",
+          "value": "application/json"
+        },
+        {
+          "name": "Authorization",
+          "value": "Bearer {{ _.session_token }}"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1705315187000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_15_documents_search",
+      "parentId": "fld_documents",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/documents/search",
+      "name": "Search Documents",
+      "description": "Search documents in the knowledge base",
+      "method": "GET",
+      "body": {},
+      "parameters": [
+        {
+          "name": "query",
+          "value": "password reset",
+          "description": "Search query"
+        },
+        {
+          "name": "top_k",
+          "value": "5",
+          "description": "Number of results to return"
+        }
+      ],
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer {{ _.session_token }}"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1705315186000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "req_16_documents_delete",
+      "parentId": "fld_documents",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "url": "{{ _.base_url }}/api/documents/sample-doc-id",
+      "name": "Delete Document",
+      "description": "Delete a document from the knowledge base",
+      "method": "DELETE",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Authorization",
+          "value": "Bearer {{ _.session_token }}"
+        }
+      ],
+      "authentication": {},
+      "metaSortKey": -1705315185000,
+      "isPrivate": false,
+      "settingStoreCookies": true,
+      "settingSendCookies": true,
+      "settingDisableRenderRequestBody": false,
+      "settingEncodeUrl": true,
+      "settingRebuildPath": true,
+      "settingFollowRedirects": "global",
+      "_type": "request"
+    },
+    {
+      "_id": "fld_main",
+      "parentId": "wrk_workspace",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "name": "Main",
+      "description": "Main API endpoints",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1705315200000,
+      "_type": "request_group"
+    },
+    {
+      "_id": "fld_chat",
+      "parentId": "wrk_workspace",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "name": "Chat",
+      "description": "Chat and conversation endpoints",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1705315199000,
+      "_type": "request_group"
+    },
+    {
+      "_id": "fld_auth",
+      "parentId": "wrk_workspace",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "name": "Authentication",
+      "description": "User authentication and session management",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1705315198000,
+      "_type": "request_group"
+    },
+    {
+      "_id": "fld_fintech",
+      "parentId": "wrk_workspace",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "name": "Fintech",
+      "description": "Fintech-specific endpoints and categories",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1705315197000,
+      "_type": "request_group"
+    },
+    {
+      "_id": "fld_documents",
+      "parentId": "wrk_workspace",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "name": "Documents",
+      "description": "Document management endpoints",
+      "environment": {},
+      "environmentPropertyOrder": null,
+      "metaSortKey": -1705315196000,
+      "_type": "request_group"
+    },
+    {
+      "_id": "wrk_workspace",
+      "parentId": null,
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "name": "EloquentAI Fintech Chatbot API",
+      "description": "Complete API collection for the EloquentAI Fintech Chatbot with RAG capabilities",
+      "scope": "collection",
+      "_type": "workspace"
+    },
+    {
+      "_id": "env_base",
+      "parentId": "wrk_workspace",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "name": "Base Environment",
+      "data": {
+        "base_url": "http://localhost:8000",
+        "session_token": "",
+        "conversation_id": ""
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "base_url",
+          "session_token",
+          "conversation_id"
+        ]
+      },
+      "color": null,
+      "isPrivate": false,
+      "metaSortKey": 1705315200000,
+      "_type": "environment"
+    },
+    {
+      "_id": "env_production",
+      "parentId": "wrk_workspace",
+      "modified": 1705315200000,
+      "created": 1705315200000,
+      "name": "Production",
+      "data": {
+        "base_url": "https://your-production-domain.com",
+        "session_token": "",
+        "conversation_id": ""
+      },
+      "dataPropertyOrder": {
+        "&": [
+          "base_url",
+          "session_token",
+          "conversation_id"
+        ]
+      },
+      "color": "#d97706",
+      "isPrivate": false,
+      "metaSortKey": 1705315200001,
+      "_type": "environment"
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "fintech_faqs": [
+    {
+      "category": "Account & Registration",
+      "question": "How do I create a new account?",
+      "answer": "To create a new account, visit our website or download our mobile app. Click 'Sign Up' and provide your email, phone number, and create a secure password. You'll need to verify your email and phone number. Then complete identity verification by uploading a government-issued ID and taking a selfie. The process typically takes 5-10 minutes.",
+      "keywords": [
+        "account creation",
+        "sign up",
+        "registration",
+        "new user",
+        "getting started"
+      ]
+    },
+    {
+      "category": "Account & Registration",
+      "question": "What documents do I need for identity verification?",
+      "answer": "For identity verification, you need: 1) A government-issued photo ID (driver's license, passport, or state ID), 2) A clear selfie for facial recognition, 3) Proof of address (utility bill, bank statement, or lease agreement dated within 90 days). All documents must be current and clearly readable.",
+      "keywords": [
+        "identity verification",
+        "documents",
+        "KYC",
+        "ID verification",
+        "proof of address"
+      ]
+    },
+    {
+      "category": "Account & Registration",
+      "question": "Why is my account verification taking so long?",
+      "answer": "Account verification typically takes 24-48 hours. Delays may occur due to: unclear document photos, mismatched information, high verification volume, or additional compliance checks. If it's been over 48 hours, contact support with your application reference number.",
+      "keywords": [
+        "verification delay",
+        "account pending",
+        "verification time",
+        "KYC delay"
+      ]
+    },
+    {
+      "category": "Account & Registration",
+      "question": "How do I reset my password?",
+      "answer": "To reset your password: 1) Go to the login page and click 'Forgot Password', 2) Enter your registered email address, 3) Check your email for a password reset link, 4) Click the link and create a new password. The reset link expires in 1 hour for security.",
+      "keywords": [
+        "password reset",
+        "forgot password",
+        "login issues",
+        "account access"
+      ]
+    },
+    {
+      "category": "Account & Registration",
+      "question": "Can I change my registered email or phone number?",
+      "answer": "Yes, you can update your contact information in Settings > Profile. For email changes, you'll receive verification emails at both old and new addresses. For phone changes, SMS verification is required. These changes may trigger additional security checks.",
+      "keywords": [
+        "change email",
+        "change phone",
+        "update contact",
+        "profile settings"
+      ]
+    },
+    {
+      "category": "Payments & Transactions",
+      "question": "How do I add money to my account?",
+      "answer": "You can add money through: 1) Bank transfer (ACH) - free, takes 1-3 business days, 2) Debit card - instant, small fee applies, 3) Wire transfer - same day, higher fee, 4) Direct deposit - set up through your employer. All methods require account verification.",
+      "keywords": [
+        "add money",
+        "deposit",
+        "fund account",
+        "bank transfer",
+        "debit card"
+      ]
+    },
+    {
+      "category": "Payments & Transactions",
+      "question": "What are your transaction limits?",
+      "answer": "Daily limits: $5,000 for transfers, $2,500 for ATM withdrawals, $10,000 for debit card purchases. Monthly limits: $50,000 for transfers. These limits increase with account verification level and history. Premium accounts have higher limits.",
+      "keywords": [
+        "transaction limits",
+        "daily limits",
+        "monthly limits",
+        "transfer limits",
+        "withdrawal limits"
+      ]
+    },
+    {
+      "category": "Payments & Transactions",
+      "question": "How long do transfers take?",
+      "answer": "Transfer times vary: Internal transfers (same bank) - instant, ACH transfers - 1-3 business days, Wire transfers - same day, International transfers - 3-5 business days. Weekend and holiday transfers may be delayed until the next business day.",
+      "keywords": [
+        "transfer time",
+        "ACH transfer",
+        "wire transfer",
+        "international transfer",
+        "transfer speed"
+      ]
+    },
+    {
+      "category": "Payments & Transactions",
+      "question": "Why was my transaction declined?",
+      "answer": "Transactions may be declined due to: insufficient funds, daily/monthly limits exceeded, suspicious activity detection, incorrect payment details, merchant restrictions, or temporary system maintenance. Check your account balance and limits first.",
+      "keywords": [
+        "transaction declined",
+        "payment failed",
+        "insufficient funds",
+        "declined transaction"
+      ]
+    },
+    {
+      "category": "Payments & Transactions",
+      "question": "How do I dispute a transaction?",
+      "answer": "To dispute a transaction: 1) Contact us within 60 days of the transaction, 2) Provide transaction details and reason for dispute, 3) We'll investigate and provide provisional credit if applicable, 4) Resolution typically takes 5-10 business days. Keep all relevant documentation.",
+      "keywords": [
+        "dispute transaction",
+        "chargeback",
+        "unauthorized transaction",
+        "transaction dispute"
+      ]
+    },
+    {
+      "category": "Security & Fraud Prevention",
+      "question": "How do you protect my account from fraud?",
+      "answer": "We use multiple security layers: 256-bit SSL encryption, two-factor authentication (2FA), real-time fraud monitoring, device fingerprinting, biometric authentication, and AI-powered suspicious activity detection. We also send instant notifications for all transactions.",
+      "keywords": [
+        "fraud protection",
+        "account security",
+        "encryption",
+        "2FA",
+        "fraud monitoring"
+      ]
+    },
+    {
+      "category": "Security & Fraud Prevention",
+      "question": "What should I do if I suspect fraud on my account?",
+      "answer": "If you suspect fraud: 1) Immediately contact our 24/7 fraud hotline, 2) Change your password and enable 2FA, 3) Review recent transactions, 4) We'll freeze suspicious transactions and issue new cards if needed, 5) File a police report for identity theft if applicable.",
+      "keywords": [
+        "fraud alert",
+        "suspicious activity",
+        "account compromised",
+        "identity theft",
+        "fraud hotline"
+      ]
+    },
+    {
+      "category": "Security & Fraud Prevention",
+      "question": "How do I enable two-factor authentication?",
+      "answer": "To enable 2FA: 1) Go to Settings > Security, 2) Select 'Two-Factor Authentication', 3) Choose SMS or authenticator app, 4) Follow setup instructions, 5) Save backup codes securely. 2FA is required for high-value transactions and recommended for all users.",
+      "keywords": [
+        "two-factor authentication",
+        "2FA",
+        "security settings",
+        "authenticator app",
+        "backup codes"
+      ]
+    },
+    {
+      "category": "Security & Fraud Prevention",
+      "question": "Is my personal information secure?",
+      "answer": "Yes, we use bank-level security: data encryption at rest and in transit, SOC 2 Type II compliance, regular security audits, zero-knowledge architecture for sensitive data, and strict access controls. We never sell your personal information to third parties.",
+      "keywords": [
+        "data security",
+        "privacy",
+        "encryption",
+        "SOC 2",
+        "personal information"
+      ]
+    },
+    {
+      "category": "Security & Fraud Prevention",
+      "question": "What happens if I lose my phone or it's stolen?",
+      "answer": "If your phone is lost/stolen: 1) Immediately log into your account from another device and enable account lock, 2) Contact support to disable mobile app access, 3) Change your password, 4) Disable SMS 2FA and switch to backup method, 5) Monitor account for suspicious activity.",
+      "keywords": [
+        "lost phone",
+        "stolen device",
+        "mobile security",
+        "account lock",
+        "device management"
+      ]
+    },
+    {
+      "category": "Regulations & Compliance",
+      "question": "Are you FDIC insured?",
+      "answer": "Yes, deposits are FDIC insured up to $250,000 per depositor through our partner banks. This means your money is protected even if the bank fails. FDIC insurance covers checking, savings, and money market accounts but not investments.",
+      "keywords": [
+        "FDIC insurance",
+        "deposit protection",
+        "bank insurance",
+        "FDIC coverage"
+      ]
+    },
+    {
+      "category": "Regulations & Compliance",
+      "question": "Do you report to credit bureaus?",
+      "answer": "We report positive payment history for certain products (like secured credit cards) to help build your credit. We may also report negative activity like defaults or fraud. We don't perform hard credit checks for standard account opening.",
+      "keywords": [
+        "credit reporting",
+        "credit bureaus",
+        "credit score",
+        "credit history",
+        "credit check"
+      ]
+    },
+    {
+      "category": "Regulations & Compliance",
+      "question": "What regulations do you comply with?",
+      "answer": "We comply with: Bank Secrecy Act (BSA), Anti-Money Laundering (AML) regulations, Know Your Customer (KYC) requirements, GDPR for international users, CCPA for California residents, PCI DSS for payment processing, and state money transmitter licenses.",
+      "keywords": [
+        "regulations",
+        "compliance",
+        "BSA",
+        "AML",
+        "KYC",
+        "GDPR",
+        "CCPA",
+        "PCI DSS"
+      ]
+    },
+    {
+      "category": "Regulations & Compliance",
+      "question": "How do you handle international transactions?",
+      "answer": "International transactions are subject to: additional compliance checks, OFAC sanctions screening, enhanced due diligence, currency conversion fees, and longer processing times. Some countries may be restricted due to regulatory requirements.",
+      "keywords": [
+        "international transactions",
+        "OFAC",
+        "sanctions",
+        "currency conversion",
+        "cross-border"
+      ]
+    },
+    {
+      "category": "Regulations & Compliance",
+      "question": "What are your privacy practices?",
+      "answer": "We follow strict privacy practices: data minimization, purpose limitation, user consent for data collection, right to data portability, right to deletion, regular privacy impact assessments, and third-party data sharing only when legally required or with explicit consent.",
+      "keywords": [
+        "privacy policy",
+        "data protection",
+        "user consent",
+        "data rights",
+        "privacy practices"
+      ]
+    },
+    {
+      "category": "Technical Support & Troubleshooting",
+      "question": "The app is not working properly. What should I do?",
+      "answer": "For app issues: 1) Force close and restart the app, 2) Check for app updates in your app store, 3) Restart your device, 4) Check internet connection, 5) Clear app cache (Android) or reinstall (iOS), 6) Contact support if issues persist. Include device model and OS version.",
+      "keywords": [
+        "app not working",
+        "technical issues",
+        "app troubleshooting",
+        "mobile app problems"
+      ]
+    },
+    {
+      "category": "Technical Support & Troubleshooting",
+      "question": "I can't log into my account. What should I do?",
+      "answer": "For login issues: 1) Verify your email/username and password, 2) Check if Caps Lock is on, 3) Try password reset if needed, 4) Clear browser cache or try incognito mode, 5) Disable VPN if using one, 6) Check if your account is locked due to multiple failed attempts.",
+      "keywords": [
+        "login problems",
+        "can't log in",
+        "account locked",
+        "login error",
+        "access issues"
+      ]
+    },
+    {
+      "category": "Technical Support & Troubleshooting",
+      "question": "How do I contact customer support?",
+      "answer": "Contact support through: 1) In-app chat (24/7), 2) Phone: 1-800-FINTECH (business hours), 3) Email: support@company.com, 4) Help center with FAQs, 5) Video call support for complex issues. Emergency fraud line available 24/7.",
+      "keywords": [
+        "customer support",
+        "contact support",
+        "help desk",
+        "phone support",
+        "chat support"
+      ]
+    },
+    {
+      "category": "Technical Support & Troubleshooting",
+      "question": "Why is my transaction pending?",
+      "answer": "Transactions may be pending due to: bank processing times, compliance reviews, insufficient funds verification, weekend/holiday delays, international transfer processing, or system maintenance. Most pending transactions resolve within 1-3 business days.",
+      "keywords": [
+        "pending transaction",
+        "transaction status",
+        "processing delay",
+        "transaction pending"
+      ]
+    },
+    {
+      "category": "Technical Support & Troubleshooting",
+      "question": "How do I update my app to the latest version?",
+      "answer": "To update the app: iOS - Go to App Store > Updates > Find our app > Tap Update. Android - Go to Google Play Store > My apps & games > Find our app > Tap Update. Enable automatic updates for seamless experience. Always use official app stores.",
+      "keywords": [
+        "app update",
+        "latest version",
+        "update app",
+        "app store",
+        "google play"
+      ]
+    }
+  ]
+}
